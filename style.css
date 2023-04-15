@@ -34,7 +34,7 @@ h1{
     /* text-transform: uppercase;  */
     /* text-shadow: 3px 3px ; */
     direction: ltr;
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 5rem;
     background: linear-gradient(to right, #3e36e6 10%,#053269 100%);
     -webkit-background-clip: text;
@@ -51,7 +51,7 @@ h1{
   p{
     text-align:right;
     display:grid;
-    font-size: 25px;
+    font-size: 30px;
     font-family:cursive;
     color: rgb(1, 1, 134);
 
