@@ -28,13 +28,14 @@ body{
     text-align:right;
 }
 h1{
+  text-align:right;
     /* font-weight: normal;*/
     letter-spacing: .125rem;
     /* text-transform: uppercase;  */
     /* text-shadow: 3px 3px ; */
     direction: ltr;
-    font-size: 60px;
-    margin-top: -10rem;
+    font-size: 40px;
+    margin-top: 5rem;
     background: linear-gradient(to right, #3e36e6 10%,#053269 100%);
     -webkit-background-clip: text;
             background-clip: text;
@@ -47,8 +48,10 @@ h1{
       transform: rotateY(360deg) 
     }
   }
-p{
-    font-size: 30px;
+  p{
+    text-align:right;
+    display:grid;
+    font-size: 25px;
     font-family:cursive;
     color: rgb(1, 1, 134);
 
@@ -59,10 +62,10 @@ p{
 li{
     display: inline-block;
     color: rgb(30, 39, 208);
-    font-size: 30px;
+    font-size: 20px;
     list-style-type:none ;
     padding: 8px 48px;
-    text-transform:lowercase;
+    text-transform:capitalize;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i))
   }
