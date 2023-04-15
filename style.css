@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-image: url("https://j.gifs.com/JZvQvl.gif");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+    align-items: center;
+    background-color: rgb(142, 175, 186);
+    display: flex;
+    font-family:cursive;
+
+}
+.container{
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    /* font-weight: normal;*/
+    letter-spacing: .125rem;
+    /* text-transform: uppercase;  */
+    /* text-shadow: 3px 3px ; */
+    direction: ltr;
+    font-size: 60px;
+    margin-top: -10rem;
+    background: linear-gradient(to right, #3e36e6 10%,#053269 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+    
+
+
+li{
+    display: inline-block;
+    color: rgb(30, 39, 208);
+    font-size: 30px;
+    list-style-type:none ;
+    padding: 8px 48px;
+    text-transform:lowercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+    
+
+li span{
+    display: block;
+    font-size: 4.5rem;
+
+}
+
+.emoji{
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span{
+    font-size: 4rem;
+    padding: 0 .5rem;
+}
