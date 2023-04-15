@@ -47,6 +47,12 @@ h1{
       transform: rotateY(360deg) 
     }
   }
+p{
+    font-size: 30px;
+    font-family:cursive;
+    color: rgb(1, 1, 134);
+
+  }
     
 
 
